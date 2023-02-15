@@ -44,7 +44,7 @@ final class IntegrationTest extends TestCase
     /**
      * @return array<array<string>>
      */
-    public function dataForIntegrationTest(): array
+    public static function dataForIntegrationTest(): array
     {
         return [
             ['This is a test without any strikethroughs', "<p>This is a test without any strikethroughs</p>\n"],
